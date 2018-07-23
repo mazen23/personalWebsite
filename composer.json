@@ -1,0 +1,21 @@
+{
+    "name": "mazen/live",
+    "description": "my online profile",
+    "autoload": {
+        "files": ["config.php","inc/Insights.php","inc/CsrfToken.php"],
+        "psr-4": {
+            "app\\Insights\\": "inc/Insights.php",
+            "app\\CsrfToken\\": "inc/CsrfToken.php"
+            }
+    },
+    "authors": [
+            {
+                "name": "Mazen ElGammal",
+                "email": "admin@mazenelgammal.com"
+            }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
+
